@@ -28,13 +28,35 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.buttonLoginKinveyMIC = new System.Windows.Forms.Button();
+            this.SuspendLayout();
+            // 
+            // buttonLoginKinveyMIC
+            // 
+            this.buttonLoginKinveyMIC.Location = new System.Drawing.Point(343, 118);
+            this.buttonLoginKinveyMIC.Name = "buttonLoginKinveyMIC";
+            this.buttonLoginKinveyMIC.Size = new System.Drawing.Size(212, 23);
+            this.buttonLoginKinveyMIC.TabIndex = 0;
+            this.buttonLoginKinveyMIC.Text = "Login Kinvey MIC";
+            this.buttonLoginKinveyMIC.UseVisualStyleBackColor = true;
+            this.buttonLoginKinveyMIC.Visible = false;
+            this.buttonLoginKinveyMIC.Click += new System.EventHandler(this.buttonLoginKinveyMIC_Click);
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.buttonLoginKinveyMIC);
+            this.Name = "Form1";
             this.Text = "Form1";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
+
+        private System.Windows.Forms.Button buttonLoginKinveyMIC;
     }
 }
 
